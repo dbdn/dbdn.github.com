@@ -1,14 +1,23 @@
-# Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
-
-# Build settings
 markdown: kramdown
+highlighter: pygments
+permalink: blog/:year/:month/:day/:title.html
+paginate: 6
+paginate_path: page/:num
+
+blog:
+    name: 毒不懂你                                               # 博客名称
+    description: 像梦一样回忆过去                                         # 博客描述
+    title: 像梦一样回忆过去                                              # 网页标题
+    url: /                                                # 博客地址
+    duoshuo: dbdn                                            # 多说ID
+    tongji:                                              # 百度统计ID
+    qiniu:                                               # 七牛云地址
+author:
+    name:  dbdn                                              # 作者名称
+    email: hailang_hu@qq.com                                              # 邮箱地址
+    weibo:                                               # 微博地址
+    github: https://github.com/dbdn                                             # GitHub地址
+    logo:                                                # logo地址
+    douban:
+        name:                                            # 豆瓣地址名称
+        key:                                             # 豆瓣API Key
