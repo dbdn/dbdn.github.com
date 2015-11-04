@@ -2,6 +2,7 @@
 layout: post
 title: Jekyll安装
 category: jekyll
+tag: blog
 date: 2015-10-27
 description: "阅读了标题中的论文后的一些总结"
 duoshuo: true
@@ -19,6 +20,8 @@ duoshuo: true
     ERROR:  Could not find a valid gem 'jekyll' (>= 0), here is why:
             Unable to download data from https://rubygems.org/ - Errno::ECONNRESET: Connection reset by peer - SSL_connect (https://api.rubygems.org/latest_specs.4.8.gz)
     
+
+<!-- more -->
 
 解决：
 

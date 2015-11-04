@@ -1,12 +1,18 @@
 ---
 layout: post
 title: 常用英语单词
-category: english
+category: 
+- english
+- dev
+
+tag:
+- dev
+- mytags
 date: 2015-10-30
 
 ---
 ---
----
+
     performance    性能
     robustness     健壮性
     specification     规格说明书，
@@ -15,6 +21,8 @@ date: 2015-10-30
     privilege         权限
     official             官方的
     resposibility      责任
+
+<!-- more -->
     mechanism     机制
     optimized     最佳的
     conflict          冲突

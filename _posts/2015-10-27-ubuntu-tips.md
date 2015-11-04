@@ -1,7 +1,8 @@
 ---
 layout: post
 title: ubuntu 使用笔记
-category: ubuntu
+category: [linux]
+tag: [ip, linux, ubuntu]
 date: 2015-10-27
 duoshuo: true
 
@@ -23,6 +24,9 @@ duoshuo: true
     
     #关闭终端,并重起.下次进入系统,系统会提示是否把转化好的目录改回中文.选择不再提示,并取消修改.主目录的中文转英文就完成了~
 ```
+
+<!-- more -->
+
 --------
 ##网络设置
 - 配置ip

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: erlang学习笔记
-category: erlang
+category: [erlang, lists]
 date: 2015-10-27
 duoshuo: true
 ---
@@ -19,6 +19,8 @@ duoshuo: true
     A = B = C = 1.   
     <<A:7, B:6, C:3>>. 
     <<2,9>>.
+
+<!-- more -->
 
 ----------
 
